@@ -1,0 +1,39 @@
+h1 {
+  text-decoration: underline;
+}
+
+body {
+  background-image: url("BCP Concert 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+.overlay {
+  z-index: 1;
+  background-image: url("logo_light_tiled.png");
+  /* background-size: 150px; */
+  /* background-repeat: space space; */
+  width: 100%;
+  height: 100%;
+  background-size: 70%;
+  background-position: -100px 0;
+}
+
+.main {
+  position: absolute;
+  top: 30%;
+  left: 60%;
+  width: 400px;
+  background-color: black;
+  color: #f1f1f1;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: 300;
+  padding: 15px 20px;
+}
+
+a {
+  color: #f1f1f1;
+}
