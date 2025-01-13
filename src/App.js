@@ -1,5 +1,7 @@
 import { useState } from "react";
 import "./App.css";
+import logo from "./logo_light.png";
+import backgroundVideo from "./Website-video-v3.mp4";
 
 function App() {
   const [showContent, setShowContent] = useState(false);
@@ -14,13 +16,10 @@ function App() {
           muted
           poster="BCP-Concert-1.png"
         >
-          <source
-            src="https://assets.codepen.io/6093409/river.mp4"
-            type="video/mp4"
-          />
+          <source src={backgroundVideo} type="video/mp4" />
         </video>
 
-        <div className="container">
+        <div className="content">
           {!showContent ? (
             <div
               className="info-button"
@@ -31,22 +30,27 @@ function App() {
               Info
             </div>
           ) : (
-            <div className="content">
+            <div className="popup">
               <div className="nav">
                 <button
                   onClick={() => {
                     setShowContent(false);
                   }}
                 >
-                  x
+                  Close
                 </button>
               </div>
               <div className="text">
                 <p>
-                  The Brooklyn Choir Project is taking one of the oldest and
-                  most conservative of music genres – choral singing – and
-                  infusing it with the energy and ethos of New York’s indie and
-                  underground music communities.
+                  The{" "}
+                  <img
+                    className="logo"
+                    src={logo}
+                    alt="Brooklyn Choir Project"
+                  />{" "}
+                  is taking one of the oldest and most conservative of music
+                  genres – choral singing – and infusing it with the energy and
+                  ethos of New York’s indie and underground music communities.
                 </p>
 
                 <p>
@@ -59,10 +63,15 @@ function App() {
                 </p>
 
                 <p>
-                  In its first season, Brooklyn Choir Project worked with eight
-                  exceptional New York songwriters whose styles contain fusions
-                  of Indian classical, modular synthesis, alt-folk, pulsing
-                  ambience, West African art-rock, and more.
+                  In its first season,{" "}
+                  <img
+                    className="logo"
+                    src={logo}
+                    alt="Brooklyn Choir Project"
+                  />{" "}
+                  worked with eight exceptional New York songwriters whose
+                  styles contain fusions of Indian classical, modular synthesis,
+                  alt-folk, pulsing ambience, West African art-rock, and more.
                 </p>
 
                 <p>Our second season starts January 27 2025.</p>
