@@ -1,32 +1,23 @@
-import { useState, useRef } from "react";
+import { useState } from "react";
 import "./App.css";
 
 function App() {
   const [showContent, setShowContent] = useState(false);
-  const videoRef = useRef(null); // Reference to the video element
-
-  const toggleVideo = () => {
-    if (videoRef.current) {
-      if (!videoRef.current.paused) {
-        videoRef.current.pause(); // Pause the video
-      } else {
-        videoRef.current.play();
-      }
-    }
-  };
 
   return (
     <div className="App">
-      <div class="background">
+      <div className="background">
         <video
-          ref={videoRef}
-          id="background-video"
+          className="background-video"
           autoPlay
           loop
           muted
           poster="BCP-Concert-1.png"
         >
-          <source src="../Website-video-v3.mp4" type="video/mp4" />
+          <source
+            src="https://assets.codepen.io/6093409/river.mp4"
+            type="video/mp4"
+          />
         </video>
 
         <div className="container">
@@ -146,9 +137,6 @@ function App() {
             </div>
           )}
         </div>
-        <button className="toggle-video" onClick={toggleVideo}>
-          {videoRef.current.paused ? "Play" : "Pause"}
-        </button>
       </div>
     </div>
   );
