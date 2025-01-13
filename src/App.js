@@ -7,7 +7,7 @@ function App() {
 
   const toggleVideo = () => {
     if (videoRef.current) {
-      if (videoRef.current.playing) {
+      if (!videoRef.current.paused) {
         videoRef.current.pause(); // Pause the video
       } else {
         videoRef.current.play();
@@ -147,7 +147,7 @@ function App() {
           )}
         </div>
         <button className="toggle-video" onClick={toggleVideo}>
-          {videoRef.current.playing ? "Pause" : "Play"}
+          {videoRef.current.paused ? "Play" : "Pause"}
         </button>
       </div>
     </div>
