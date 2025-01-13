@@ -1,13 +1,25 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import "./App.css";
 
 function App() {
   const [showContent, setShowContent] = useState(false);
+  const videoRef = useRef(null); // Reference to the video element
+
+  const toggleVideo = () => {
+    if (videoRef.current) {
+      if (videoRef.current.playing) {
+        videoRef.current.pause(); // Pause the video
+      } else {
+        videoRef.current.play();
+      }
+    }
+  };
 
   return (
     <div className="App">
       <div class="background">
         <video
+          ref={videoRef}
           id="background-video"
           autoPlay
           loop
@@ -134,6 +146,9 @@ function App() {
             </div>
           )}
         </div>
+        <button className="toggle-video" onClick={toggleVideo}>
+          {videoRef.current.playing ? "Pause" : "Play"}
+        </button>
       </div>
     </div>
   );
