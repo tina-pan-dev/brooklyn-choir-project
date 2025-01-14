@@ -63,15 +63,10 @@ function App() {
                 </p>
 
                 <p>
-                  In its first season,{" "}
-                  <img
-                    className="logo"
-                    src={logo}
-                    alt="Brooklyn Choir Project"
-                  />{" "}
-                  worked with eight exceptional New York songwriters whose
-                  styles contain fusions of Indian classical, modular synthesis,
-                  alt-folk, pulsing ambience, West African art-rock, and more.
+                  In its first season, Brooklyn Choir Project worked with eight
+                  exceptional New York songwriters whose styles contain fusions
+                  of Indian classical, modular synthesis, alt-folk, pulsing
+                  ambience, West African art-rock, and more.
                 </p>
 
                 <p>Our second season starts January 27 2025.</p>
