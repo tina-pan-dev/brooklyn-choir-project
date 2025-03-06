@@ -63,13 +63,14 @@ function App() {
                 </p>
 
                 <p>
-                  In its first season, Brooklyn Choir Project worked with eight
-                  exceptional New York songwriters whose styles contain fusions
-                  of Indian classical, modular synthesis, alt-folk, pulsing
-                  ambience, West African art-rock, and more.
+                  For its second season, Brooklyn Choir Project has expanded to
+                  an ensemble of seventy. Our April 11th 2025 concert will
+                  feature newly commissioned arrangements of songs by Kevin
+                  Holliday, 79.5, Dida Pelled, aden, Lily Talmers, Otracami, and
+                  Peaceful Faces.
                 </p>
 
-                <p>Our second season starts January 27 2025.</p>
+                <p>Tickets go on sale soon.</p>
                 <p>
                   Learn how you can join us{" "}
                   <a
