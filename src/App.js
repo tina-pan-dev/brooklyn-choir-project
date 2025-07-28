@@ -75,7 +75,7 @@ function App() {
 
                 <p>
                   Submit your song for consideration for our upcoming season
-                  hereq{" "}
+                  here{" "}
                   <a href="https://forms.gle/6fBpAALUbKigQf5c6" target="_blank">
                     here
                   </a>
