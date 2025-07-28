@@ -63,29 +63,20 @@ function App() {
                 </p>
 
                 <p>
-                  For its second season, Brooklyn Choir Project has expanded to
-                  an ensemble of seventy. Our April 11th 2025 concert will
-                  feature newly commissioned arrangements of songs by Kevin
-                  Holliday, 79.5, Dida Pelled, aden, Lily Talmers, Otracami, and
-                  Peaceful Faces.
-                </p>
-
-                <p>
-                  Tickets{" "}
-                  <a
-                    href="https://link.dice.fm/w0402fe317e7?dice_id=w0402fe317e7"
-                    target="_blank"
-                  >
+                  Fall 2025 marks the third season of Brooklyn Choir Project,
+                  newly supported with grant funding from the Brooklyn Arts
+                  Council. Final concerts will be presented on December 5th and
+                  6th. Learn how you can join us as a singer{" "}
+                  <a href="https://forms.gle/S65x8PArSQDGCWra8" target="_blank">
                     here
                   </a>
                   .
                 </p>
+
                 <p>
-                  Learn how you can join us{" "}
-                  <a
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSdV6d6UGOWDMLXAscOJvbx8Lv24-PHo9LqhMmorAGXoGFFsMg/viewform"
-                    target="_blank"
-                  >
+                  Submit your song for consideration for our upcoming season
+                  here{" "}
+                  <a href="https://forms.gle/6fBpAALUbKigQf5c6" target="_blank">
                     here
                   </a>
                   .
