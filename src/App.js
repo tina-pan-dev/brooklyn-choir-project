@@ -62,25 +62,7 @@ function App() {
                   the choir, singing side by side with other singers.
                 </p>
 
-                <p>
-                  Fall 2025 marks the third season of Brooklyn Choir Project,
-                  newly supported with grant funding from the Brooklyn Arts
-                  Council. Final concerts will be presented on December 5th and
-                  6th. Learn how you can join us as a singer{" "}
-                  <a href="https://forms.gle/S65x8PArSQDGCWra8" target="_blank">
-                    here
-                  </a>
-                  .
-                </p>
-
-                <p>
-                  Submit your song for consideration for our upcoming season
-                  here{" "}
-                  <a href="https://forms.gle/6fBpAALUbKigQf5c6" target="_blank">
-                    here
-                  </a>
-                  .
-                </p>
+                <p>Tickets for our May 2026 concerts dropping soon</p>
               </div>
               <div className="links">
                 <a
