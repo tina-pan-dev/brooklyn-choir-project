@@ -33,10 +33,6 @@ jobs:
       - name: Build
         run: npm run build
 
-      # If your project uses static export output
-      - name: Export
-        run: npm run export
-
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
