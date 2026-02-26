@@ -68,6 +68,7 @@ function App() {
                 <a
                   href="https://www.instagram.com/brooklynchoirproject/"
                   target="_blank"
+                  rel="noreferrer noopener"
                   className="icon"
                 >
                   <svg
