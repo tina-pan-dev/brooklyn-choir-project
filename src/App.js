@@ -62,7 +62,17 @@ function App() {
                   the choir, singing side by side with other singers.
                 </p>
 
-                <p>Tickets for our May 2026 concerts dropping soon</p>
+                <p>
+                  Tickets for our May 2026 concerts on sale{" "}
+                  <a
+                    href="https://dice.fm/bundles/brooklyn-choir-project-oner"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    here
+                  </a>
+                  .
+                </p>
               </div>
               <div className="links">
                 <a
