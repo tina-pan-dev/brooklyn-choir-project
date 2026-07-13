@@ -1,6 +1,3 @@
-import inlineLogo from "../logo_light.png";
-import backgroundVideo from "../Website-video-v3.mp4";
-
 export const fallbackContent = {
   siteName: "Brooklyn Choir Project",
   openLabel: "Info",
@@ -29,9 +26,14 @@ export const fallbackContent = {
   ticketLinkLabel: "here",
   ticketUrl: "https://dice.fm/bundles/brooklyn-choir-project-oner",
   instagramUrl: "https://www.instagram.com/brooklynchoirproject/",
-  inlineLogo,
-  backgroundVideo,
-  posterImage: "/BCP-Concert-1.png",
-  mobileBackground: "/BCP-bg-S.png",
-  patternImage: "/logo_light_tiled.png",
+  inlineLogo:
+    "https://cdn.sanity.io/images/65sb0bhu/production/9551885bfb6e471f13caf94e5856b6f9c02c6c39-1405x195.png",
+  backgroundVideo:
+    "https://cdn.sanity.io/files/65sb0bhu/production/b501a3dd114a97857c301d50c3a6b520cdd2f5df.mp4",
+  posterImage:
+    "https://cdn.sanity.io/images/65sb0bhu/production/0e7218354d92cbdbad666ec74a582f2124378898-3446x1818.png",
+  mobileBackground:
+    "https://cdn.sanity.io/images/65sb0bhu/production/d5ef59957a144b8d551de3f0c1464d59047602f2-390x844.png",
+  patternImage:
+    "https://cdn.sanity.io/images/65sb0bhu/production/6934236ba2cc6a34f732ddb82aca76f1baefd866-1950x533.png",
 };
